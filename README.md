@@ -16,7 +16,8 @@ cargo run -- tree --source <path/to/directory>
 
 **Arguments:**
 - `--source` or `-s`: The directory to display.
-- `--folders-only`: An optional flag to only display folders in the tree structure.
+- `--folders-only`: An optional flag to only display folders in the tree structure. [optional]
+- `--run-discover`: Add an optional flag to show filename patterns and their counts. [optional]
 
 **Example:**
 ```bash
